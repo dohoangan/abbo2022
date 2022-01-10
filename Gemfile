@@ -53,9 +53,9 @@ gem 'capistrano-rails', '~> 1.4'
 gem 'capistrano-passenger', '~> 0.2.0'
 gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 
-gem 'rbnacl', '< 5.0', :require => false                                                                                                                                                                
-gem 'rbnacl-libsodium', :require => false                                                                                                                                                               
-gem 'bcrypt_pbkdf', '< 2.0', :require => false
+gem 'bcrypt', '~> 3.1.7'
+gem 'ed25519'
+gem 'bcrypt_pbkdf'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
